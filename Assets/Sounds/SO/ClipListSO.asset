@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609f42d04a3c24149b6d299c962d5b74, type: 3}
+  m_Name: ClipListSO
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 5354299f92963064f82844542c9f6925, type: 3}
+  - {fileID: 8300000, guid: fe6373808e52fd444ad90ab6768878b1, type: 3}
+  - {fileID: 8300000, guid: a76316d9941b79b4fbfae0615fe60675, type: 3}
+  - {fileID: 8300000, guid: 5f05f73700750de4096bb8341b4688b3, type: 3}
+  - {fileID: 8300000, guid: 44ecb5d9a557ab340afa183ec5aea75e, type: 3}
+  shuffleClip: 1
