@@ -28,7 +28,7 @@ public class SnowmanManager : MonoBehaviour
     {
         Gate.GoalMe += Goal;
         color.a = 1;
-        anticolor.a = 0.5f;
+        anticolor.a = 0.7f;
     }
     private void OnDestroy()
     {

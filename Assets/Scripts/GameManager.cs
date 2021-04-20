@@ -194,4 +194,10 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void SetTime(string time)
+    {
+        if(int.TryParse(time, out int newTime))
+            matchDuration = newTime;
+    }
 }
