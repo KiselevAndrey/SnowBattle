@@ -68,7 +68,7 @@ public class PlayerSetingsUI : MonoBehaviour
     {
         if (anticolor == snowman.anticolor) return;
 
-        Color newColor = Color.Lerp(snowman.color, anticolor, 0.5f);
+        Color newColor = Color.Lerp(snowman.anticolor, anticolor, 0.5f);
 
         ChangeAverageColor?.Invoke(newColor);
     }
