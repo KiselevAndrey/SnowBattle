@@ -8,9 +8,16 @@ public class Savior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         string name = other.gameObject.name;
+        print(name);
         if (int.TryParse(name[0].ToString(), out int number))
+        {
+            print(number);
             RespawnObj(number);
+        }
         else
+        {
+            print(0);
             RespawnObj(0);
+        }
     }
 }
