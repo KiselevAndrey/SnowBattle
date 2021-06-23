@@ -1865,6 +1865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 524491364}
   - component: {fileID: 524491366}
+  - component: {fileID: 524491369}
   - component: {fileID: 524491367}
   - component: {fileID: 524491363}
   - component: {fileID: 524491362}
@@ -2097,6 +2098,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &524491369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524491360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0beb645b7e3afc24da56fb2dc2ac7d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigibody: {fileID: 524491365}
+  spawnTransform: {fileID: 83254421}
 --- !u!1 &540760253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,7 +2273,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643861344}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -2368,6 +2383,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786518934}
     m_Modifications:
+    - target: {fileID: -830357633073446664, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: spawnTransform
+      value: 
+      objectReference: {fileID: 982904355}
     - target: {fileID: 7444586190884681178, guid: 788e25f9cd6d9a349b7855d98a698039,
         type: 3}
       propertyPath: m_Name
@@ -8547,6 +8567,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786518934}
     m_Modifications:
+    - target: {fileID: -830357633073446664, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: spawnTransform
+      value: 
+      objectReference: {fileID: 961630375}
     - target: {fileID: 7444586190884681178, guid: 788e25f9cd6d9a349b7855d98a698039,
         type: 3}
       propertyPath: m_Name
@@ -8642,16 +8667,6 @@ PrefabInstance:
       propertyPath: color.a
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7444586190863055676, guid: 788e25f9cd6d9a349b7855d98a698039,
-        type: 3}
-      propertyPath: m_TagString
-      value: HockeyStick
-      objectReference: {fileID: 0}
-    - target: {fileID: 7444586190884681183, guid: 788e25f9cd6d9a349b7855d98a698039,
-        type: 3}
-      propertyPath: drawGizmos
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7444586191281425534, guid: 788e25f9cd6d9a349b7855d98a698039,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8676,6 +8691,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444586190863055676, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_TagString
+      value: HockeyStick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444586190884681183, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: drawGizmos
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788e25f9cd6d9a349b7855d98a698039, type: 3}

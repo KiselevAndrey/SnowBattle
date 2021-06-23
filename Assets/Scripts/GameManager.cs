@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         Gate.GoalMe += Goal;
         Puck.TheyDontTouchMe += SpawnPuck;
-        Savior.RespawnObj += RespawnObject;
+        //Savior.RespawnObj += RespawnObject;
         TimerUI.TimerIsZero += EndGame;
         TimerUI.TimeTrigger += PlayEndingMusic;
     }
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
         Gate.GoalMe -= Goal;
         Puck.TheyDontTouchMe -= SpawnPuck;
-        Savior.RespawnObj -= RespawnObject;
+        //Savior.RespawnObj -= RespawnObject;
         TimerUI.TimerIsZero -= EndGame;
     }
 
