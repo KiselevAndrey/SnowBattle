@@ -477,7 +477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputType: 0
   rb: {fileID: 7444586190884681181}
-  speed: 40
+  acceleration: 50
+  maxSpeed: 10
   rotationSpeed: 10
 --- !u!114 &156758873840614759
 MonoBehaviour:

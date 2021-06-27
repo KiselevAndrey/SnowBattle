@@ -7,7 +7,8 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] Rigidbody rb;
 
     [Header("Скорости")]
-    [SerializeField] float speed;
+    [SerializeField] float acceleration = 30f;
+    [SerializeField] float maxSpeed = 20f;
     [SerializeField] float rotationSpeed;
 
     void FixedUpdate()
@@ -31,12 +32,12 @@ public class MovePlayer : MonoBehaviour
                 break;
         }
 
-        if (inputVertical != 0)
+        if (inputVertical != 0 && rb.velocity.magnitude < maxSpeed)
         {
             Vector3 velocity = transform.forward;
             velocity.y = 0;
             //rb.velocity = velocity * inputVertical * speed;
-            rb.AddForce(velocity * inputVertical * speed);
+            rb.AddForce(velocity * inputVertical * acceleration);
         }
 
         if(inputHorizontal != 0)

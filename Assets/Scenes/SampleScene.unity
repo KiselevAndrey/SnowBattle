@@ -670,7 +670,7 @@ MonoBehaviour:
   - {fileID: 83254420}
   - {fileID: 961630374}
   - {fileID: 982904354}
-  matchDuration: 120
+  matchDuration: 200
   startEndingMusic: 12.4
   snowmenCount: 2
   anim: {fileID: 110383635}
@@ -3194,6 +3194,21 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7861128146585381820, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861128146585381820, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861128146585381820, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788e25f9cd6d9a349b7855d98a698039, type: 3}
 --- !u!4 &672603035 stripped
@@ -4318,7 +4333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961630374}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 4.46, y: 5, z: 9.9}
+  m_LocalPosition: {x: 0, y: 1, z: 2.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1877128848}
@@ -4431,7 +4446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982904354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.19, y: 5, z: -9.98}
+  m_LocalPosition: {x: 0, y: 1, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1877128848}
@@ -10468,6 +10483,21 @@ PrefabInstance:
         type: 3}
       propertyPath: drawGizmos
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861128146585381820, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861128146585381820, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861128146585381820, guid: 788e25f9cd6d9a349b7855d98a698039,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788e25f9cd6d9a349b7855d98a698039, type: 3}
